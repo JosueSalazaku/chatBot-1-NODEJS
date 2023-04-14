@@ -18,4 +18,4 @@ const chatGPT = async (prompt) => {
     console.log(response["data"]["choices"][0]["message"]["content"]);
 };
 
-chatGPT("About revenge");
+chatGPT("finding inner peace");
